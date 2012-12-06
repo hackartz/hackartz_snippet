@@ -1,0 +1,14 @@
+//compass sprite snippet
+
+@import "../example_folder/icons/*.png";
+
+//@include all-icons-sprites;
+
+//sample is icon names
+
+nav{
+	li.messages{
+		@include example_folder-sprite(sample);
+		width: icons-sprite-width(sample);
+	}
+}
