@@ -1,0 +1,40 @@
+/*
+	=======================
+	CSS TRANSITION SNIPPET
+	=======================
+	name   	: Tan Andre Kurniawan
+	email  	: hackartz.dev@gmail.com
+	git 	: github.com/hackartz
+*/
+
+/* sample1 */
+.something {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s ease-in 0s;
+    -moz-transition: background-color 0.5s ease-in 0s; /* firefox */
+    -webkit-transition: background-color 0.5s ease-in 0s; /* chrome */
+    -o-transition: background-color 0.5s ease-in 0s; /* opera */
+    /*  duration : 0.5s
+		timing-function : ease-in
+		delay : 0s
+     */
+
+     /* source : blogger stylesheet */
+}
+
+/* sample2 */
+.something {
+    width:100px;
+	height:100px;
+	background: red; /* as you wish */
+	transition: width 2s; /* transition time (use second)*/
+	-moz-transition:width 2s; /* Firefox 4 */
+	-webkit-transition:width 2s; /* Safari and Chrome */
+	-o-transition:width 2s; /* Opera */
+}
+
+.something:hover {
+	width: 300px; /* change width when hover to div */
+}
+
+/* source : W3schools.com */
