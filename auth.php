@@ -26,7 +26,8 @@
 		password dari cracking
 	*/
 	$hashed_password = sha1($salt.$_POST['password']);
-	/*	menggabungkan $salt dan $password dari 			method post kemudian di enkripsi dengan
+	/*	menggabungkan $salt dan $password dari
+		method post kemudian di enkripsi dengan
 		sha1('secretpassword')
 	*/
 
